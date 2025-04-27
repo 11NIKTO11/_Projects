@@ -1,0 +1,30 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 160353085 entries, 0 to 160353084
+Data columns (total 5 columns):
+ #   Column       Dtype  
+---  ------       -----  
+ 0   pixel_color  object 
+ 1   user_id_num  int32  
+ 2   time         float32
+ 3   X            int32  
+ 4   Y            int32  
+dtypes: float32(1), int32(3), object(1)
+memory usage: 3.6+ GB
+
+Column 'pixel_color': 32 unique values
+Column 'user_id_num': 10257345 unique values
+Number of entries: 155925983
+
+
+Duration: 295409.875s (3d 10h 3m 30.0s)
+Average placement delay: 0.00189s 
+Average placement delay per square: 0d 2h 6m 10.63s
+Average placement delay: mean = 0.00189, std = 0.04260
+
+Average of mean placement delay per pixel: 9362.80 s equal to 0d 2h 36m 2.8s
+Standard deviation of mean placement delay per pixel: 12240.31 s equal to 0d 3h 24m 0.31s
+
+Time for $1 000 000$ entries:
+`Python compare ~ (n[['X','Y']]==m[['X','Y']]).all()` - Extremely slow $ \approx 35min$
+`Python grouped ~ df.groupby(['X','Y'])` - Takes a long time $ \approx 2min$
+`C++ Implementation` - Memory efficient and quick $ \approx 3sec$

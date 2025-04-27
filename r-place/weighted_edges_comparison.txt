@@ -1,0 +1,66 @@
+Comparing files: positive edges vs. positive exac (History length: 3)
+Average weight difference per edge: 0.0225
+Average weight difference per edge from edges with difference: 1.2069
+Count of edges in 'positive exac' that are not in 'positive edges': 2168981
+Count of edges in 'positive edges' that are not in 'positive exac': 0
+Count of edges in that are in union: 150324900
+Percentage of edges in 'positive exac' that are not in union: 1.4429%
+Percentage of edges in 'positive edges' that are not in union: 0.0%
+Percentage of edges in both graphs and are  are not in union: 98.5571%
+
+Comparing files: positive edges vs. positive exac (History length: 5)
+Average weight difference per edge: 0.0262
+Average weight difference per edge from edges with difference: 1.2399
+Count of edges in 'positive exac' that are not in 'positive edges': 4049196
+Count of edges in 'positive edges' that are not in 'positive exac': 0
+Count of edges in that are in union: 251315192
+Percentage of edges in 'positive exac' that are not in union: 1.6112%
+Percentage of edges in 'positive edges' that are not in union: 0.0%
+Percentage of edges in both graphs and are  are not in union: 98.3888%
+
+Comparing files: convolution vs. positive exac (History length: 4)
+Average weight difference per edge: 0.0545
+Average weight difference per edge from edges with difference: 0.0553
+Count of edges in 'positive exac' that are not in 'convolution': 256323988
+Count of edges in 'convolution' that are not in 'positive exac': 235738949
+Count of edges in that are in union: 503589984
+Percentage of edges in 'positive exac' that are not in union: 50.8993%
+Percentage of edges in 'convolution' that are not in union: 46.8117%
+Percentage of edges in both graphs and are  are not in union: 2.289%
+
+POSITIVE EXACT
+
+History: 3
+Number of vertices: 10257345
+Isolated vertices count: 1025945 (percentige 10.002%)
+Non-Isolated vertices count: 9231400 (percentige 89.998%)
+Number of edges: 148155919
+Edge density: 2.816e-06
+
+History: 5
+Number of vertices: 10257345
+Isolated vertices count: 825975 (percentige 8.053%)
+Non-Isolated vertices count: 9431370 (percentige 91.947%)
+Number of edges: 247265996
+Edge density: 4.700e-06
+
+History: 10
+Number of vertices: 10257345
+Isolated vertices count: 625495 (percentige 6.098%)
+Non-Isolated vertices count: 9631850 (percentige 93.902%)
+Number of edges: 459297221
+Edge density: 8.731e-06
+
+History: 4
+Number of vertices: 10257345
+Isolated vertices count: 1264558 (percentige 12.328%)
+Non-Isolated vertices count: 8992787 (percentige 87.672%)
+Number of edges: 267851035
+Edge density: 5.092e-06
+
+History: 8
+Number of vertices: 10257345
+Isolated vertices count: 1130168 (percentige 11.018%)
+Non-Isolated vertices count: 9127177 (percentige 88.982%)
+Number of edges: 505284112
+Edge density: 9.605e-06

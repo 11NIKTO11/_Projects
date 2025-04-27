@@ -1,0 +1,9 @@
+﻿  Graph.cpp
+D:\Semester\SNA-Social Networks and their Analysis\Practical\Project\Graph\Graph\Graph.cpp(116,41): warning C4244: '+=': conversion from 'double' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty2=int
+          ]
+D:\Semester\SNA-Social Networks and their Analysis\Practical\Project\Graph\Graph\Graph.cpp(120,44): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Semester\SNA-Social Networks and their Analysis\Practical\Project\Graph\Graph\Graph.cpp(125,33): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Graph.vcxproj -> D:\Semester\SNA-Social Networks and their Analysis\Practical\Project\Graph\x64\Debug\Graph.exe
